@@ -39,7 +39,7 @@
       <module name="telegrambots-abilities" target="1.8" />
       <module name="telegrambots-chat-session-bot" target="1.8" />
       <module name="telegrambots-extensions" target="1.8" />
-      <module name="telegrambots-meta" target="1.7" />
+      <module name="telegrambots-meta" target="1.8" />
       <module name="telegrambots-spring-boot-starter" target="1.8" />
       <module name="telegrambotsextensions" target="1.8" />
     </bytecodeTargetLevel>

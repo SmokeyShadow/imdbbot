@@ -62,8 +62,28 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots-meta/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1357">
-              <caret line="250" column="5" lean-forward="false" selection-start-line="250" selection-start-column="5" selection-end-line="262" selection-end-column="31" />
+            <state relative-caret-position="593">
+              <caret line="245" column="29" lean-forward="false" selection-start-line="245" selection-start-column="28" selection-end-line="245" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongPollingBot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/generics/LongPollingBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="telegrambots-meta.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegrambots-meta/telegrambots-meta.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiContext.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApiContext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/ApiContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
+            <state relative-caret-position="441">
               <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,32 +131,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieDetailsPageParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/MovieDetailsPageParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieResultParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/MovieResultParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -157,6 +151,7 @@
       <find>call</find>
       <find>type</find>
       <find>system</find>
+      <find>plugin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -473,6 +468,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="meta" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Bots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybot" type="462c0819:PsiDirectoryNode" />
+              <item name="telegrambots-meta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="meta" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -693,12 +698,12 @@
       <workItem from="1546256355429" duration="1218000" />
       <workItem from="1547348891601" duration="4250000" />
       <workItem from="1547876561641" duration="46074000" />
-      <workItem from="1548155120555" duration="1843000" />
+      <workItem from="1548155120555" duration="2881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184725000" />
+    <option name="totallyTimeSpent" value="185763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -754,17 +759,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/telegrambots-abilities/src/test/java/org/telegram/abilitybots/api/bot/DefaultBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/bot/AbilityBot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -932,16 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/generics/LongPollingBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#878#879#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/resources/nl/stil4m/imdb/parsing.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1057,9 +1046,9 @@
         <state relative-caret-position="861">
           <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1031#1032#0" expanded="false" />
+            <element signature="e#1098#1099#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1069,7 +1058,7 @@
         <state relative-caret-position="1302">
           <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1116,14 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots-meta/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="250" column="5" lean-forward="false" selection-start-line="250" selection-start-column="5" selection-end-line="262" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/ApiConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1134,11 +1115,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/ApiContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
+        <state relative-caret-position="441">
           <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots-meta/telegrambots-meta.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots-meta/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="245" column="29" lean-forward="false" selection-start-line="245" selection-start-column="28" selection-end-line="245" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/generics/LongPollingBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
