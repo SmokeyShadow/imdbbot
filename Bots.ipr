@@ -31,14 +31,8 @@
     <bytecodeTargetLevel>
       <module name="Bots" target="1.5" />
       <module name="imdb-api" target="1.8" />
-      <module name="omdbapi" target="1.6" />
       <module name="telegrambots" target="1.8" />
-      <module name="telegrambots-abilities" target="1.8" />
-      <module name="telegrambots-chat-session-bot" target="1.8" />
-      <module name="telegrambots-extensions" target="1.8" />
       <module name="telegrambots-meta" target="1.8" />
-      <module name="telegrambots-spring-boot-starter" target="1.8" />
-      <module name="telegrambotsextensions" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
@@ -632,17 +626,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/telegrambots/src/main/java/omdbapi/pom.xml" />
         <option value="$PROJECT_DIR$/telegrambots/imdb-api/pom.xml" />
         <option value="$PROJECT_DIR$/imdb-api-master/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/telegrambots-abilities/pom.xml" />
-        <option value="$PROJECT_DIR$/telegrambots-chat-session-bot/pom.xml" />
-        <option value="$PROJECT_DIR$/telegrambots-extensions/pom.xml" />
-        <option value="$PROJECT_DIR$/telegrambots-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/imdb-api/pom.xml" />
       </set>
     </option>
@@ -985,28 +974,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.omdbapi:omdbapi:0.4.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/0.4.1/omdbapi-0.4.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/0.4.1/omdbapi-0.4.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/0.4.1/omdbapi-0.4.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.omdbapi:omdbapi:RELEASE">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/RELEASE/omdbapi-RELEASE.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/RELEASE/omdbapi-RELEASE-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/RELEASE/omdbapi-RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.vdurmont:emoji-java:4.0.0">

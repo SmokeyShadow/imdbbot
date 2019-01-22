@@ -9,10 +9,7 @@
     <packaging>pom</packaging>
     <version>4.1</version>
     <repositories>
-    <repository>
-        <id>omdbapi4j repo</id>
-        <url>http://omdbapi4j.sf.net/maven2</url>
-    </repository>
+
     </repositories>
     <modules>
         <module>telegrambots</module>
