@@ -976,6 +976,28 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.omdbapi:omdbapi:0.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/0.4.1/omdbapi-0.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/0.4.1/omdbapi-0.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/0.4.1/omdbapi-0.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.omdbapi:omdbapi:RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/RELEASE/omdbapi-RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/RELEASE/omdbapi-RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/RELEASE/omdbapi-RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.vdurmont:emoji-java:4.0.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/vdurmont/emoji-java/4.0.0/emoji-java-4.0.0.jar!/" />
