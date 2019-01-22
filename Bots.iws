@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad0671e-b866-47c9-85a8-f8f2a23b5bae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Bots.ipr" afterPath="$PROJECT_DIR$/Bots.ipr" />
       <change beforePath="$PROJECT_DIR$/Bots.iws" afterPath="$PROJECT_DIR$/Bots.iws" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/.gitignore" afterPath="$PROJECT_DIR$/imdb-api/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/.travis.yml" afterPath="$PROJECT_DIR$/imdb-api/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/pom.xml" afterPath="$PROJECT_DIR$/imdb-api/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/DocumentBuilder.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/DocumentBuilder.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/IMDB.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/IMDB.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/IMDBFactory.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/IMDBFactory.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/commands/Command.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/commands/Command.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/commands/SearchTitleCommand.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/commands/SearchTitleCommand.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/commands/TitleDetailsCommand.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/commands/TitleDetailsCommand.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/constants/IMDBConstants.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/constants/IMDBConstants.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/Details.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/Details.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/MovieDetails.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/MovieDetails.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/SearchResult.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/SearchResult.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/TvEpisodeDetails.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/TvEpisodeDetails.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/TvShowDetails.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/TvShowDetails.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/MovieDetailsPageParser.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/MovieDetailsPageParser.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/MovieResultParser.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/MovieResultParser.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/Parser.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/Parser.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/TvEpisodeDetailsPageParser.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/TvEpisodeDetailsPageParser.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/TvShowDetailsPageParser.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/TvShowDetailsPageParser.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/util/ElementUtil.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/util/ElementUtil.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/util/impl/DefaultElementUtil.java" afterPath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/util/impl/DefaultElementUtil.java" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/main/resources/nl/stil4m/imdb/parsing.properties" afterPath="$PROJECT_DIR$/imdb-api/src/main/resources/nl/stil4m/imdb/parsing.properties" />
+      <change beforePath="$PROJECT_DIR$/imdb-api-master/src/test/java/nl/stil4m/imdb/it/Main.java" afterPath="$PROJECT_DIR$/imdb-api/src/test/java/nl/stil4m/imdb/it/Main.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/telegrambots/pom.xml" afterPath="$PROJECT_DIR$/telegrambots/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,31 +46,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bots.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bots.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="52" column="89" lean-forward="false" selection-start-line="52" selection-start-column="89" selection-end-line="52" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="193" selection-end-column="21" />
+            <state relative-caret-position="4095">
+              <caret line="195" column="30" lean-forward="false" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="IMDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/IMDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="504">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,8 +69,8 @@
       <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="-42">
+              <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               <folding>
                 <marker date="1548155102662" expanded="true" signature="1725:1791" ph="INSERT INTO user_fav_movies... " />
                 <marker date="1548155102662" expanded="true" signature="2376:2423" ph="SELECT * FRO... movie" />
@@ -72,6 +88,16 @@
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imdb-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1142">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots-meta/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
@@ -81,21 +107,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bots.ipr" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bots.ipr">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20979">
-              <caret line="999" column="14" lean-forward="false" selection-start-line="999" selection-start-column="14" selection-end-line="999" selection-end-column="14" />
+            <state relative-caret-position="269">
+              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bots.iws" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bots.iws">
+      <file leaf-file-name="TextUpdate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="147">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imdb-api/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maven__com_google_guava_guava_14_0_1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imdb-api/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maven__org_hamcrest_hamcrest_core_1_3.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imdb-api/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,6 +183,9 @@
       <find>exten</find>
       <find>telegram</find>
       <find>stil</find>
+      <find>stil4m</find>
+      <find>js</find>
+      <find>jsoup</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -263,8 +322,7 @@
             </path>
             <path>
               <item name="Bots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybot" type="462c0819:PsiDirectoryNode" />
-              <item name="telegrambots-meta" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -282,15 +340,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/telegrambots/src/main/java" />
     <property name="last_opened_file_path" value="D:/imdb-api-master/api-imdb-master" />
+    <property name="SearchEverywhereHistoryKey" value="stil4m&#9;FILE&#9;file://D:/mybot/imdb-api-master/src/main/resources/nl/stil4m" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\mybot" />
-      <recent name="D:\mybot\telegrambots" />
-      <recent name="D:\TelegramJavaApi\TelegramBots\telegrambots\src\main\java" />
-      <recent name="D:\TelegramJavaApi\TelegramBots\telegrambots" />
-      <recent name="D:\TelegramJavaApi\TelegramBots" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="nl.stil4m.imdb" />
       <recent name="" />
@@ -300,6 +352,13 @@
       <recent name="D:\mybot" />
       <recent name="D:\mybot\telegrambots\src\main\java\org\telegram\telegrambots" />
       <recent name="D:\TelegramJavaApi\TelegramBots\telegrambots\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mybot" />
+      <recent name="D:\mybot\telegrambots" />
+      <recent name="D:\TelegramJavaApi\TelegramBots\telegrambots\src\main\java" />
+      <recent name="D:\TelegramJavaApi\TelegramBots\telegrambots" />
+      <recent name="D:\TelegramJavaApi\TelegramBots" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -486,12 +545,12 @@
       <workItem from="1547348891601" duration="4250000" />
       <workItem from="1547876561641" duration="46074000" />
       <workItem from="1548155120555" duration="3335000" />
-      <workItem from="1548187416568" duration="279000" />
+      <workItem from="1548187416568" duration="2481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189641000" />
+    <option name="totallyTimeSpent" value="191843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -547,32 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jetbrains.png" />
-    <entry file="file://$PROJECT_DIR$/telegrambots-spring-boot-starter/src/main/java/org/telegram/telegrambots/starter/TelegramBotStarterConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/MovieFindResultParser.java" />
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/TvShowDetailsPageParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="43" column="65" lean-forward="false" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/IMDBFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/SearchedMoviesParser.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.2/jsoup-1.7.2-sources.jar!/org/jsoup/helper/HttpConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/test/java/nl/stil4m/imdb/it/IntegrationTest.java" />
     <entry file="jar://D:/JDK/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -580,14 +613,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/constants/IMDBConstants.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/constants/IMDBConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/Parser.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
@@ -629,24 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/IMDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/updatesreceivers/DefaultBotSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/resources/nl/stil4m/imdb/parsing.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="101" lean-forward="false" selection-start-line="10" selection-start-column="101" selection-end-line="10" selection-end-column="101" />
         </state>
       </provider>
     </entry>
@@ -664,70 +683,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/MovieDetails.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/MovieDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/SearchResult.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/SearchResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/Details.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/Details.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/TvEpisodeDetails.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/TvEpisodeDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/domain/TvShowDetails.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/TvShowDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/commands/Command.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/commands/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/commands/SearchTitleCommand.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/commands/SearchTitleCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/commands/TitleDetailsCommand.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/commands/TitleDetailsCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/TvEpisodeDetailsPageParser.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/TvEpisodeDetailsPageParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/DocumentBuilder.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/DocumentBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="12" column="75" lean-forward="false" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
@@ -741,21 +760,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/MovieResultParser.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/MovieResultParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
           <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/MovieDetailsPageParser.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/MovieDetailsPageParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1302">
           <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imdb-api-master/src/test/java/nl/stil4m/imdb/it/Main.java">
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/test/java/nl/stil4m/imdb/it/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
@@ -766,13 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4998">
-          <caret line="238" column="57" lean-forward="false" selection-start-line="238" selection-start-column="57" selection-end-line="238" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -806,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bots.iws">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="254">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -842,25 +854,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots-meta/pom.xml">
+    <entry file="file://$PROJECT_DIR$/telegrambots/telegrambots.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="84">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/telegrambots.iml">
+    <entry file="file://$PROJECT_DIR$/imdb-api/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="61" column="93" lean-forward="false" selection-start-line="61" selection-start-column="93" selection-end-line="61" selection-end-column="93" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb-api/imdb-api.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/main.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/resources/nl/stil4m/imdb/parsing.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="101" lean-forward="false" selection-start-line="10" selection-start-column="101" selection-end-line="10" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb-api/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb-api/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb-api/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb-api/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1142">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/IMDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="-42">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding>
             <marker date="1548155102662" expanded="true" signature="1725:1791" ph="INSERT INTO user_fav_movies... " />
             <marker date="1548155102662" expanded="true" signature="2376:2423" ph="SELECT * FRO... movie" />
@@ -876,17 +961,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots-meta/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="193" selection-end-column="21" />
+        <state relative-caret-position="4095">
+          <caret line="195" column="30" lean-forward="false" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="269">
           <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding />
         </state>

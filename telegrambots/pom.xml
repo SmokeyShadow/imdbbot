@@ -83,6 +83,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>nl.stil4m</groupId>
+            <artifactId>imdb-api</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.telegram</groupId>
             <artifactId>telegrambots-meta</artifactId>
             <version>${bots.version}</version>
@@ -188,10 +193,11 @@
             <version>5.1.38</version>
         </dependency>
         <dependency>
-            <groupId>nl.stil4m</groupId>
-            <artifactId>imdb-api</artifactId>
-            <version>1.2.0</version>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.2</version>
         </dependency>
+
     </dependencies>
 
     <build>
