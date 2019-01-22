@@ -39,7 +39,7 @@
       <module name="telegrambots-abilities" target="1.8" />
       <module name="telegrambots-chat-session-bot" target="1.8" />
       <module name="telegrambots-extensions" target="1.8" />
-      <module name="telegrambots-meta" target="1.8" />
+      <module name="telegrambots-meta" target="1.7" />
       <module name="telegrambots-spring-boot-starter" target="1.8" />
       <module name="telegrambotsextensions" target="1.8" />
     </bytecodeTargetLevel>
@@ -891,17 +891,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar!/" />
@@ -933,17 +922,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.1.2">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.1.2/jackson-databind-2.1.2.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.1.2/jackson-databind-2.1.2-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.1.2/jackson-databind-2.1.2-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.7">
@@ -1817,17 +1795,6 @@
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/telegrambots-meta/telegrambots-meta-3.5-sources.jar!/" />
         <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots-meta/3.5/telegrambots-meta-3.5-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.telegram:telegrambots:1.8.3">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/1.8.3/telegrambots-1.8.3.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/1.8.3/telegrambots-1.8.3-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/1.8.3/telegrambots-1.8.3-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.telegram:telegrambots:3.5">
