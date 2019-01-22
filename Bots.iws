@@ -5,10 +5,6 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/telegrambots-meta/target/" />
     <ignored path="$PROJECT_DIR$/telegrambots/target/" />
-    <ignored path="$PROJECT_DIR$/telegrambots-extensions/target/" />
-    <ignored path="$PROJECT_DIR$/telegrambots-chat-session-bot/target/" />
-    <ignored path="$PROJECT_DIR$/telegrambots-abilities/target/" />
-    <ignored path="$PROJECT_DIR$/telegrambots-spring-boot-starter/target/" />
     <ignored path="$PROJECT_DIR$/telegrambots/imdb-api/target/" />
     <ignored path="$PROJECT_DIR$/telegrambots/src/main/java/imdb-api/target/" />
     <ignored path="$PROJECT_DIR$/imdb-api-master/target/" />
