@@ -976,28 +976,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.omdbapi:omdbapi:0.4.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/0.4.1/omdbapi-0.4.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/0.4.1/omdbapi-0.4.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/0.4.1/omdbapi-0.4.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.omdbapi:omdbapi:RELEASE">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/RELEASE/omdbapi-RELEASE.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/RELEASE/omdbapi-RELEASE-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/omdbapi/omdbapi/RELEASE/omdbapi-RELEASE-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: com.vdurmont:emoji-java:4.0.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/vdurmont/emoji-java/4.0.0/emoji-java-4.0.0.jar!/" />
@@ -1150,19 +1128,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: nl.stil4m:imdb-api:1.2.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/nl/stil4m/imdb-api/1.2.0/imdb-api-1.2.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/telegrambots/src/main/java/imdb-api/imdb-api-1.2.0-javadoc.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/nl/stil4m/imdb-api/1.2.0/imdb-api-1.2.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/telegrambots/src/main/java/imdb-api/imdb-api-1.2.0-sources.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/nl/stil4m/imdb-api/1.2.0/imdb-api-1.2.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.httpcomponents:httpclient:4.5.3">
@@ -1537,32 +1502,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.14.8/lombok-1.14.8-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.telegram:telegrambots-meta:3.5">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots-meta/3.5/telegrambots-meta-3.5.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/telegrambots-meta/telegrambots-meta-3.5-javadoc.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots-meta/3.5/telegrambots-meta-3.5-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/telegrambots-meta/telegrambots-meta-3.5-sources.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots-meta/3.5/telegrambots-meta-3.5-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.telegram:telegrambots:3.5">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/3.5/telegrambots-3.5.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/telegrambots/telegrambots-3.5-javadoc.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/3.5/telegrambots-3.5-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/telegrambots/telegrambots-3.5-sources.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/3.5/telegrambots-3.5-sources.jar!/" />
       </SOURCES>
     </library>
   </component>
