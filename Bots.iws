@@ -2,67 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad0671e-b866-47c9-85a8-f8f2a23b5bae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Bots.ipr" afterPath="$PROJECT_DIR$/Bots.ipr" />
       <change beforePath="$PROJECT_DIR$/Bots.iws" afterPath="$PROJECT_DIR$/Bots.iws" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eclipse configuration.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/jetbrains.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/bot/AbilityBot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/bot/AbilityWebhookBot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/bot/BaseAbilityBot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/db/DBContext.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/db/MapDBContext.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/db/MapDBVar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/db/Var.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/objects/Ability.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/objects/Flag.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/objects/Locality.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/objects/MessageContext.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/objects/Privacy.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/objects/Reply.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/sender/DefaultSender.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/sender/MessageSender.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/sender/SilentSender.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/util/AbilityMessageCodes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/util/AbilityUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/util/Pair.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/util/Trio.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/main/resources/messages.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/test/java/org/telegram/abilitybots/api/bot/AbilityBotI18nTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/test/java/org/telegram/abilitybots/api/bot/AbilityBotTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/test/java/org/telegram/abilitybots/api/bot/DefaultBot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/test/java/org/telegram/abilitybots/api/db/MapDBContextTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/test/java/org/telegram/abilitybots/api/objects/AbilityTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/test/java/org/telegram/abilitybots/api/sender/SilentSenderTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-abilities/src/test/resources/messages_it_IT.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-chat-session-bot/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-chat-session-bot/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-chat-session-bot/src/main/java/org/telegram/telegrambots/session/ChatIdConverter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-chat-session-bot/src/main/java/org/telegram/telegrambots/session/DefaultChatIdConverter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-chat-session-bot/src/main/java/org/telegram/telegrambots/session/DefaultChatSessionContext.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-chat-session-bot/src/main/java/org/telegram/telegrambots/session/TelegramLongPollingSessionBot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/commandbot/TelegramLongPollingCommandBot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/commandbot/commands/BotCommand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/commandbot/commands/CommandRegistry.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/commandbot/commands/DefaultBotCommand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/commandbot/commands/IBotCommand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/commandbot/commands/ICommandRegistry.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/commandbot/commands/helpCommand/HelpCommand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/commandbot/commands/helpCommand/IManCommand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/commandbot/commands/helpCommand/ManCommand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-extensions/src/main/java/org/telegram/telegrambots/extensions/bots/timedbot/TimedSendLongPollingBot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/pom.xml" afterPath="$PROJECT_DIR$/telegrambots-meta/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-spring-boot-starter/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-spring-boot-starter/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-spring-boot-starter/src/main/java/org/telegram/telegrambots/starter/TelegramBotInitializer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-spring-boot-starter/src/main/java/org/telegram/telegrambots/starter/TelegramBotStarterConfiguration.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-spring-boot-starter/src/test/java/org/telegram/telegrambots/starter/TestTelegramBotStarterConfiguration.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/telegrambots-meta/target/" />
@@ -125,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots-meta/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="183">
-              <caret line="107" column="90" lean-forward="true" selection-start-line="107" selection-start-column="90" selection-end-line="107" selection-end-column="90" />
+              <caret line="107" column="55" lean-forward="false" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -145,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="290">
+              <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -186,6 +127,7 @@
       <find>type</find>
       <find>system</find>
       <find>plugin</find>
+      <find>gp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -248,8 +190,8 @@
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java" />
         <option value="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/MovieResultParser.java" />
         <option value="$PROJECT_DIR$/imdb-api-master/src/main/java/nl/stil4m/imdb/parsers/MovieDetailsPageParser.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/telegrambots-meta/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -546,11 +488,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186333000" />
+    <option name="totallyTimeSpent" value="186774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -559,7 +500,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.388123" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -624,13 +565,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/bot/AbilityWebhookBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots-abilities/src/main/java/org/telegram/abilitybots/api/bot/BaseAbilityBot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15541">
@@ -914,14 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/ApiConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -961,7 +887,23 @@
     <entry file="file://$PROJECT_DIR$/telegrambots-meta/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
-          <caret line="107" column="90" lean-forward="true" selection-start-line="107" selection-start-column="90" selection-end-line="107" selection-end-column="90" />
+          <caret line="107" column="55" lean-forward="false" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bots.iws">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1953">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
           <folding />
         </state>
       </provider>

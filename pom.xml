@@ -17,10 +17,6 @@
     <modules>
         <module>telegrambots</module>
         <module>telegrambots-meta</module>
-        <module>telegrambots-extensions</module>
-        <module>telegrambots-abilities</module>
-        <module>telegrambots-spring-boot-starter</module>
-        <module>telegrambots-chat-session-bot</module>
     </modules>
 
     <licenses>
@@ -42,7 +38,8 @@
             <artifactId>omdbapi</artifactId>
             <version>0.4.1</version>
         </dependency>
-        <dependency>    <groupId>org.jsoup</groupId>
+        <dependency>
+            <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>1.8.3</version></dependency>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
