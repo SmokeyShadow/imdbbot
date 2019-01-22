@@ -102,7 +102,7 @@ Now that we have the library, we can start coding. There are few steps to follow
 
     ```java
 
-    public class Main {
+    public class nl.stil4m.imdb.it.Main {
         public static void main(String[] args) {
 
             // TODO Initialize Api Context
@@ -119,7 +119,7 @@ Now that we have the library, we can start coding. There are few steps to follow
 
         ```java
 
-        public class Main {
+        public class nl.stil4m.imdb.it.Main {
             public static void main(String[] args) {
 
                 ApiContextInitializer.init();
@@ -136,7 +136,7 @@ Now that we have the library, we can start coding. There are few steps to follow
 
         ```java
 
-        public class Main {
+        public class nl.stil4m.imdb.it.Main {
             public static void main(String[] args) {
 
                 ApiContextInitializer.init();
@@ -153,7 +153,7 @@ Now that we have the library, we can start coding. There are few steps to follow
 
         ```java
 
-        public class Main {
+        public class nl.stil4m.imdb.it.Main {
             public static void main(String[] args) {
 
                 ApiContextInitializer.init();

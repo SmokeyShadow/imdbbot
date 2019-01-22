@@ -32,11 +32,19 @@
     </licenses>
     <dependencies>
         <dependency>
+            <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.3</version>
+        </dependency>
+        <dependency>
             <groupId>com.omdbapi</groupId>
             <artifactId>omdbapi</artifactId>
             <version>0.4.1</version>
         </dependency>
-
+        <dependency>    <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.8.3</version></dependency>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
@@ -53,4 +61,5 @@
         <maven.deploy.skip>true</maven.deploy.skip>
         <bots.version>4.1</bots.version>
     </properties>
+
 </project>

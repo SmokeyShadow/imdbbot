@@ -48,7 +48,7 @@ Once done, you just need to create a `org.telegram.telegrambots.meta.TelegramBot
 ```java
 
     // Example taken from https://github.com/rubenlagus/TelegramBotsExample
-    public class Main {
+    public class nl.stil4m.imdb.it.Main {
         public static void main(String[] args) {
             ApiContextInitializer.init();
             TelegramBotsApi telegramBotsApi = new TelegramBotsApi();

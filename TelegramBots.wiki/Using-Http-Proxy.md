@@ -34,7 +34,7 @@ Now you are able to set up your proxy
 #### Without authentication
 
 ```java
-public class Main {
+public class nl.stil4m.imdb.it.Main {
 
     private static String BOT_NAME = "My test bot";
     private static String BOT_TOKEN = "..." /* your bot's token here */;
@@ -75,7 +75,7 @@ public class Main {
 #### With authentication
 
 ```java
-public class Main {
+public class nl.stil4m.imdb.it.Main {
 
     private static String BOT_NAME = "My test bot";
     private static String BOT_TOKEN = "..." /* your bot's token here */;

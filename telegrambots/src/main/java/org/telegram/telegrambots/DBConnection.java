@@ -1,13 +1,23 @@
 package org.telegram.telegrambots;
+import nl.stil4m.imdb.IMDB;
+import nl.stil4m.imdb.IMDBFactory;
 import org.telegram.telegrambots.meta.api.objects.Message;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
+
+import static com.sun.org.apache.bcel.internal.util.SecuritySupport.getResourceAsStream;
 
 public class DBConnection
 {
     private static DBConnection instance;
-    Connection con;
+    private IMDB imdb ;
+    private Connection con;
+    private Properties properties;
     private DBConnection()
     {
         CreateDB();
@@ -25,12 +35,32 @@ public class DBConnection
     public void CreateDB()
     {
         try {
+
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/imdb_db", "root", "mazmaz22");
+            properties = new Properties();
+
+            try {
+                InputStream inputStream =getResourceAsStream("nl/stil4m/imdb/parsing.properties");
+                properties.load(inputStream);
+            } catch (IOException e) {
+
+            }
+
+            imdb = new IMDBFactory().createInstance(properties);
         } catch (Exception e) {
             System.out.println(e);
         }
+    }
+    public  Properties GetProperties()
+    {
+        return properties;
+    }
+
+    public IMDB GetImdb()
+    {
+        return imdb;
     }
     public boolean InsertFavMovie(String movie_id , int user_id)
     {
@@ -58,8 +88,8 @@ public class DBConnection
             ResultSet r = preparedStatement.executeQuery(q);
             Movie m ;
             while (r.next()) {
-                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getDouble(8)
-                        ,r.getString(10) , r.getString(11));
+                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getString(8)
+                        ,r.getString(10) , r.getString(11) , r.getDouble(12) , r.getString(13));
                 m.rating = r.getDouble(12);
                 results.add(m);
             }
@@ -137,7 +167,7 @@ public class DBConnection
     public List<Movie> SearchMovies(String movieName)
     {
         List<Movie> results = new ArrayList<>();
-        String q = "SELECT * FROM  movie WHERE populer_title =" + "'"+movieName+"'";
+        String q = "SELECT * FROM  movie WHERE populer_title LIKE" + "'%"+movieName+"%' COLLATE utf8_general_ci";
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = con.prepareStatement(q);
@@ -146,8 +176,8 @@ public class DBConnection
             int columnsNumber = rsmd.getColumnCount();
             Movie m;
             while (r.next()) {
-                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getDouble(8)
-                        ,r.getString(10) , r.getString(11));
+                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getString(8)
+                        ,r.getString(10) , r.getString(11) , r.getDouble(12) , r.getString(13));
 
                 results.add(m);
             }
@@ -166,10 +196,30 @@ public class DBConnection
             ResultSet r = preparedStatement.executeQuery(q);
             Movie m ;
             while (r.next()) {
-                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getDouble(8)
-                ,r.getString(10) , r.getString(11));
+                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getString(8)
+                ,r.getString(10) , r.getString(11) , r.getDouble(12) , r.getString(13));
 
                 results.add(m);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return results;
+    }
+    public List<String> GetMoviesStatus(long user_id)
+    {
+        List<String> results = new ArrayList<>();
+        String q = "SELECT * FROM suggested_movie where user_id ="+ user_id ;
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = con.prepareStatement(q);
+            ResultSet r = preparedStatement.executeQuery(q);
+            Movie m ;
+            while (r.next()) {
+                m = new Movie(r.getString(1) , r.getString(3) , r.getString(4) , r.getDouble(7) , r.getString(9)
+                        ,r.getString(11) , r.getString(12) , r.getDouble(13) , "");
+
+                results.add(TextUpdate.GetInstance().GetAnswer(m , true) + " Movie Status :" + r.getString(15) + "\n");
             }
         } catch (SQLException e) {
             e.printStackTrace();

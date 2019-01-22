@@ -1,4 +1,14 @@
 package org.telegram.telegrambots;
+import nl.stil4m.imdb.IMDB;
+import nl.stil4m.imdb.IMDBFactory;
+import nl.stil4m.imdb.constants.IMDBConstants;
+import nl.stil4m.imdb.domain.MovieDetails;
+import nl.stil4m.imdb.domain.SearchResult;
+import nl.stil4m.imdb.parsers.MovieResultParser;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
@@ -6,8 +16,15 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMar
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardRemove;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
+
+import static com.sun.org.apache.bcel.internal.util.SecuritySupport.getResourceAsStream;
 
 public class TextUpdate extends TelegramUpdate
 {
@@ -56,6 +73,18 @@ public class TextUpdate extends TelegramUpdate
         else if(message_text.equals("Show my fav movies"))
         {
             ShowFavMovies(chat_id);
+        }
+        else if (message_text.equals("Show my movie suggests status"))
+        {
+            List<String> results = DBConnection.GetInstance().GetMoviesStatus(chat_id);
+            for (String r: results
+                 ) {
+                SendMessage(chat_id , r);
+            }
+        }
+        else
+        {
+            SearchMMovie(message_text , chat_id);
         }
       //  UpdateManager.GetInstance().login( chat_id , message_text, answer);
     }
@@ -138,18 +167,17 @@ public class TextUpdate extends TelegramUpdate
         UpdateManager.GetInstance().Execute(message); // Sending our message object to user
         return  message;
     }
-    public String GetAnswer(Movie m, long chat_id)
+    public String GetAnswer(Movie m , boolean checkMRate)
     {
         String answer = "";
         answer += "\uD83C\uDFAC " +m.populerTitle + "\n";
         double[] ratingResults = DBConnection.GetInstance().GetMovieRatingInfo(m.movieID);
-        answer += " ⭐️IMDB rate : " + m.rating + "\n";
+        answer += " ⭐️IMDB rate : " + (checkMRate ? m.rating : ratingResults[0]) + "\n";
         answer += " vote numbers : " + ratingResults[1] + "\n";
         answer += " Year : " + m.startYear + "\n";
         answer += " Runtime : " +m.runtime + "\n";
         //answer += "genres : " + movieList.get(i). + "\n";
         answer += m.photo + "\n";
-        SendMessage(chat_id ,answer);
         return answer;
     }
     void OnStartState(long chat_id)
@@ -159,7 +187,10 @@ public class TextUpdate extends TelegramUpdate
                 "1️⃣ type '/search lost in translation'\n" +
                 "2️⃣ type 'lost in translation'\n" +
                 "\n" +
-                "You can send messages with or without /search, they will show the same result.";
+                "You can send messages with or without /search, they will show the same result.\n" +
+                " For show/hide keyboard : \n" +
+                "*️⃣ type '/keyboard \n" +
+                "*️⃣ type '/hide \n";
         UpdateManager.GetInstance().SendMessage(chat_id , answer);
     }
     void CheckNewUser(Message msg ,long userID)
@@ -178,7 +209,7 @@ public class TextUpdate extends TelegramUpdate
         List<Movie> movieList = DBConnection.GetInstance().GetTopMovies(count);
         if(movieList.size() >0) {
             for (int i = 0; i < movieList.size(); i++) {
-                answer = GetAnswer(movieList.get(i), chat_id);
+                answer = GetAnswer(movieList.get(i) , false);
                 SendMessage(chat_id , answer);
             }
         }
@@ -195,40 +226,97 @@ public class TextUpdate extends TelegramUpdate
             addingState = insertState.InsertYear;
         }
     }
+    String GetImdbResultLink(String movie_name)
+    {
+        try {
+            return IMDBConstants.ROOT_URL + "/find?ref_=nv_sr_fn&q=" + URLEncoder.encode(movie_name, "UTF-8") + "&s=tt";
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+            return "";
+        }
+    }
+
     void SearchMMovie(String message_text , long chat_id)
     {
-        String answer;
+        String answer = "";
+        Document doc = null;
         int c = "/search".length();
         while(message_text.length() > c && message_text.charAt(c) == ' ')
             c++;
+        if( message_text.substring(c) == " " || message_text.substring(c).trim().length() <= 0)
+            return;
         String movieName = message_text.substring(c);
-        List<Movie> results = DBConnection.GetInstance().SearchMovies(movieName);
-        if(results.size() > 0)
+        try {
+            doc = Jsoup.connect(GetImdbResultLink(movieName)).get();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Elements elements = doc.select(IMDBConstants.IMDB_Find);
+        List<SearchResult> searchResults =MovieResultParser.SearchResults(DBConnection.GetInstance().GetProperties() , elements);
+        if(elements.size() <= 0)
         {
-            for (Movie m:results) {
-                answer = GetAnswer(m,chat_id);
+            answer = "movie not found!";
+        }
+        else {
+            for (SearchResult result : searchResults) {
+                List<Movie> results = DBConnection.GetInstance().SearchMovies(result.name);
+                Movie m = new Movie();
+                if(results.size() > 0)
+                {
+                    m = results.get(0);
+                }
+                else
+                {
+                    m.movieID = result.id;
+                    m.movieType = result.type;
+                    m.startYear = result.year;
+                    m.populerTitle = m.originalTItle  = result.name;
+                    if(m.movieType.equals("Movie"))
+                    {
+                        MovieDetails details = null;
+                        try {
+                            details = DBConnection.GetInstance().GetImdb().getMovieDetails(m.movieID);
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                        m.rating = details.rating;
+                        m.photo = details.image;
+                        m.startYear = details.year;
+                        m.imdbLink = MovieResultParser.GetMovieImdbLink(m.movieID);
+                        m.photo = details.image;
+                        m.runtime = details.duration;
+                        m.trailer = details.trailer;
+                        m.description =details.description;
+                        m.directors = details.directors;
+                        m.writers = details.writers;
+                        m.stars = details.stars;
+                        m.numberOfVotes = details.votes;
+                    }
+                    else
+                    {
+                        System.out.println(m.movieType);
+                    }
+                }
+                System.out.println(m.populerTitle);
+                answer = GetAnswer(m , false);
                 UpdateManager.GetInstance().SendMessage(chat_id , answer);
                 SendMessage trailerMSG = new SendMessage()
                         .setChatId(chat_id)
-                        .setText(results.get(10) + "\n ");
+                        .setText(m.trailer + "\n ");
                 InlineKeyboardMarkup markupInline = new InlineKeyboardMarkup();
                 List<List<InlineKeyboardButton>> rowsInline = new ArrayList<>();
                 List<InlineKeyboardButton> rowInline = new ArrayList<>();
-                rowInline.add(new InlineKeyboardButton().setText("Add Movie to your favs").setCallbackData("Add Movie to your favs ," + results.get(0)));
-                // Set the keyboard to the markup
+                rowInline.add(new InlineKeyboardButton().setText("Add Movie to your favs").setCallbackData("Add Movie to your favs ," + m.movieID));
+                rowInline.add(new InlineKeyboardButton().setText("\uD83C\uDF10 IMDB Link  \uD83C\uDF10").setCallbackData("IMDBlink ," + m.imdbLink));
                 rowsInline.add(rowInline);
-                // Add it to the message
                 markupInline.setKeyboard(rowsInline);
                 trailerMSG.setReplyMarkup(markupInline);
                 UpdateManager.GetInstance().Execute(trailerMSG); // Sending our message object to user
-            }
 
+            }
         }
-        else
-        {
-            answer = "movie not found!";
-            UpdateManager.GetInstance().SendMessage(chat_id , answer);
-        }
+
+        UpdateManager.GetInstance().SendMessage(chat_id , answer);
 
     }
     void ShowFavMovies( long chat_id)
@@ -239,7 +327,7 @@ public class TextUpdate extends TelegramUpdate
             Movie m;
             for (int i = 0; i < movieList.size(); i++) {
                 m = movieList.get(i);
-                answer = GetAnswer(m , chat_id);
+                answer = GetAnswer(m , false);
                 UpdateManager.GetInstance().SendMessage(chat_id ,answer);
             }
         }
