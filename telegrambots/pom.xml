@@ -182,61 +182,6 @@
             <version>RELEASE</version>
         </dependency>
         <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>0.4.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>0.4.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.omdbapi</groupId>
-            <artifactId>omdbapi</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
             <groupId>nl.stil4m</groupId>
             <artifactId>imdb-api</artifactId>
             <version>1.2.0</version>
