@@ -8,9 +8,6 @@
     <artifactId>Bots</artifactId>
     <packaging>pom</packaging>
     <version>4.1</version>
-    <repositories>
-
-    </repositories>
     <modules>
         <module>telegrambots</module>
         <module>telegrambots-meta</module>
