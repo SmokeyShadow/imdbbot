@@ -30,7 +30,8 @@ hs_err_pid*
 *.jks
 *.cer
 *.pem
-
+*.wiki
+*.md
 ### IDE files
 .idea/
 copyright/

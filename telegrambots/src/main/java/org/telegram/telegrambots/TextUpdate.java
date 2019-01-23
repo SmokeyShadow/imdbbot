@@ -1,13 +1,10 @@
 package org.telegram.telegrambots;
-import nl.stil4m.imdb.IMDB;
-import nl.stil4m.imdb.IMDBFactory;
 import nl.stil4m.imdb.constants.IMDBConstants;
 import nl.stil4m.imdb.domain.MovieDetails;
 import nl.stil4m.imdb.domain.SearchResult;
 import nl.stil4m.imdb.parsers.MovieResultParser;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
@@ -17,15 +14,10 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardRem
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
-
-import static com.sun.org.apache.bcel.internal.util.SecuritySupport.getResourceAsStream;
-
 public class TextUpdate extends TelegramUpdate
 {
     enum insertState  {InsertName , InsertYear , InsertRunTIme , Insertgenres , InsertRate };

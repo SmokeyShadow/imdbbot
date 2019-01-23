@@ -83,11 +83,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>nl.stil4m</groupId>
-            <artifactId>imdb-api</artifactId>
-            <version>1.2.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.telegram</groupId>
             <artifactId>telegrambots-meta</artifactId>
             <version>${bots.version}</version>
