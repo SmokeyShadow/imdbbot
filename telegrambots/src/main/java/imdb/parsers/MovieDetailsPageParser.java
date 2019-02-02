@@ -24,12 +24,10 @@ public class MovieDetailsPageParser implements Parser<MovieDetails> {
     private static final String DURATION = "MovieDetailsPageParser.duration";
     private static final String TRAILER = "MovieDetailsPageParser.trailer";
     private static final String VOTES = "MovieDetailsPageParser.votes";
-    private final ElementUtil elementUtil;
     private final Properties properties;
 
 
     public MovieDetailsPageParser(ElementUtil elementUtil, Properties properties) {
-        this.elementUtil = elementUtil;
         this.properties = properties;
     }
 
@@ -42,7 +40,7 @@ public class MovieDetailsPageParser implements Parser<MovieDetails> {
         List<String> directors = parseDirectors(document);
         List<String> writers = parseWriters(document);
         List<String> stars = parseStars(document);
-        List<String> categories = parseCategories(document);
+        List<String> categories = null;//parseCategories(document);
         String image = parseImage(document);
         String duration = parseRuntime(document);
         String trailer = parseTrailer(document);
@@ -73,6 +71,7 @@ public class MovieDetailsPageParser implements Parser<MovieDetails> {
     private List<String> parseCategories(Element document) {
         List<String> categories = new ArrayList<>();
         Elements elements = document.select(properties.get(CATEGORIES).toString());
+        System.out.println(elements.text());
         for (Element e : elements) {
                 if(e.attr("href").contains("release"))
                 break;

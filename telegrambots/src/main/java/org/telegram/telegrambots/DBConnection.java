@@ -2,14 +2,13 @@ package org.telegram.telegrambots;
 import imdb.IMDB;
 import imdb.IMDBFactory;
 import org.telegram.telegrambots.meta.api.objects.Message;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-
-import static com.sun.org.apache.bcel.internal.util.SecuritySupport.getResourceAsStream;
 
 public class DBConnection
 {
@@ -41,7 +40,7 @@ public class DBConnection
             properties = new Properties();
 
             try {
-                InputStream inputStream =getResourceAsStream("nl/stil4m/imdb/parsing.properties");
+                InputStream inputStream = null;// =getResourceAsStream("nl/stil4m/imdb/parsing.properties");
                 properties.load(inputStream);
             } catch (IOException e) {
 
