@@ -1,8 +1,7 @@
 package org.telegram.telegrambots;
-import nl.stil4m.imdb.IMDB;
-import nl.stil4m.imdb.IMDBFactory;
+import imdb.IMDB;
+import imdb.IMDBFactory;
 import org.telegram.telegrambots.meta.api.objects.Message;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;

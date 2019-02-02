@@ -1,8 +1,8 @@
 package org.telegram.telegrambots;
-import nl.stil4m.imdb.constants.IMDBConstants;
-import nl.stil4m.imdb.domain.MovieDetails;
-import nl.stil4m.imdb.domain.SearchResult;
-import nl.stil4m.imdb.parsers.MovieResultParser;
+import imdb.constants.IMDBConstants;
+import imdb.domain.MovieDetails;
+import imdb.domain.SearchResult;
+import imdb.parsers.MovieResultParser;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -244,7 +244,7 @@ public class TextUpdate extends TelegramUpdate
             e.printStackTrace();
         }
         Elements elements = doc.select(IMDBConstants.IMDB_Find);
-        List<SearchResult> searchResults =MovieResultParser.SearchResults(DBConnection.GetInstance().GetProperties() , elements);
+        List<SearchResult> searchResults = MovieResultParser.SearchResults(DBConnection.GetInstance().GetProperties() , elements);
         if(elements.size() <= 0)
         {
             answer = "movie not found!";
