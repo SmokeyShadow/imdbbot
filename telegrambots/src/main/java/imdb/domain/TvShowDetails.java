@@ -1,9 +1,15 @@
 package imdb.domain;
 
-import java.util.Set;
+import java.util.List;
 
-public class TvShowDetails extends Details {
+public class TvShowDetails {
 
-   public Set<String> creators;
-   public Set<String> seasons;
+   public List<String> creators;
+   public List<String> seasons;
+
+   public TvShowDetails( List<String> seasons, List<String> creators) {
+
+      this.seasons = seasons;
+      this.creators = creators;
+   }
 }

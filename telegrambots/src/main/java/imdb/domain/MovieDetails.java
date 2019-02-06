@@ -6,10 +6,9 @@ import java.util.List;
 public class MovieDetails extends Details {
 
     public  String image;
-    public String trailer;
 
 
-    public MovieDetails(String movieName, Integer year, String description, Double rating, List<String> directors, List<String> writers, List<String> stars, List<String> categories, String image, String trailer, int votes, String duration) {
+    public MovieDetails(String movieName, Integer year, String description, float rating, List<String> directors, List<String> writers, List<String> stars, List<String> categories, String image, String trailer, int votes, String duration, String awards) {
         this.movieName = movieName;
         this.year = year;
         this.description = description;
@@ -22,5 +21,6 @@ public class MovieDetails extends Details {
         this.trailer = trailer;
         this.votes = votes;
         this.duration = duration;
+        this.awards = awards;
     }
 }

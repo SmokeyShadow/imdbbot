@@ -24,6 +24,7 @@ public class MovieDetailsPageParser implements Parser<MovieDetails> {
     private static final String DURATION = "MovieDetailsPageParser.duration";
     private static final String TRAILER = "MovieDetailsPageParser.trailer";
     private static final String VOTES = "MovieDetailsPageParser.votes";
+    private static final String AWARDS = "MovieDetailsPageParser.awards";
     private final Properties properties;
 
 
@@ -36,19 +37,34 @@ public class MovieDetailsPageParser implements Parser<MovieDetails> {
         String movieName = parseMovieName(document);
         Integer year = parseMovieYear(document);
         String description = parseDescription(document);
-        Double rating = parseRating(document);
+        float rating = parseRating(document);
         List<String> directors = parseDirectors(document);
         List<String> writers = parseWriters(document);
         List<String> stars = parseStars(document);
-        List<String> categories = null;//parseCategories(document);
+        List<String> categories = parseCategories(document);
         String image = parseImage(document);
         String duration = parseRuntime(document);
         String trailer = parseTrailer(document);
         int votes = parseVotes(document);
-        return new MovieDetails(movieName, year, description, rating, directors, writers, stars, categories, image , trailer , votes , duration );
+        String awards = parseAwards(document);
+        return new MovieDetails(movieName, year, description, rating, directors, writers, stars, categories, image , trailer , votes , duration ,awards);
+    }
+    private String parseAwards(Element document) {
+        Elements e = document.select(properties.get(AWARDS).toString());
+        if (e.size() <= 0)
+            return null;
+        else {
+            if(e.size() > 2)
+                return e.first().text() + e.get(1).text();
+            else
+                return e.first().text();
+        }
     }
     private String parseTrailer(Element document) {
-        return IMDBConstants.ROOT_URL + document.select(properties.get(TRAILER).toString()).attr("href");
+        String e = document.select(properties.get(TRAILER).toString()).attr("href");
+        if(e.length() <= 0)
+            return null;
+        return IMDBConstants.ROOT_URL + e;
     }
     private String parseRuntime(Element document) {
 
@@ -70,8 +86,7 @@ public class MovieDetailsPageParser implements Parser<MovieDetails> {
 
     private List<String> parseCategories(Element document) {
         List<String> categories = new ArrayList<>();
-        Elements elements = document.select(properties.get(CATEGORIES).toString());
-        System.out.println(elements.text());
+        Elements elements = document.select("#main_top .title-overview #title-overview-widget .subtext a");
         for (Element e : elements) {
                 if(e.attr("href").contains("release"))
                 break;
@@ -84,10 +99,10 @@ public class MovieDetailsPageParser implements Parser<MovieDetails> {
         return document.select(properties.get(DESCRIPTION).toString()).text();
     }
 
-    private double parseRating(Element document) {
+    private float parseRating(Element document) {
         Elements elements = document.select(properties.get(RATING).toString());
         if (elements.text().trim().length() > 0) {
-            return Double.parseDouble(elements.text());
+            return Float.parseFloat(elements.text());
         } else {
             return -1;
         }

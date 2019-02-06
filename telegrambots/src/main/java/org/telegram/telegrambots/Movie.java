@@ -7,7 +7,7 @@ public class Movie
     public Movie() {
 
     }
-    public Movie(String movieid ,String movieType , String movieName , double startYear , String runtime , String photo , String trailer , double rating , String imdbLink)
+    public Movie(String movieid ,String movieType , String movieName , int startYear , String runtime , String photo , String trailer , float rating , String imdbLink)
     {
         this.movieType = movieType;
         movieID = movieid;
@@ -20,7 +20,7 @@ public class Movie
         this.imdbLink =  imdbLink;
     }
 
-    public Movie(String movieID, String movieType, String populerTitle, double startYear, String runtime, String photo, String trailer, double rating, String imdbLink, int numberOfVotes, List<String> directors, List<String> writers, List<String> stars, String description) {
+    public Movie(String movieID, String movieType, String populerTitle, int startYear, String runtime, String photo, String trailer, float rating, String imdbLink, int numberOfVotes, List<String> directors, List<String> writers, List<String> stars, String description , List<String> category , String awards) {
         this.movieID = movieID;
         this.movieType = movieType;
         this.populerTitle = populerTitle;
@@ -35,6 +35,8 @@ public class Movie
         this.writers = writers;
         this.stars = stars;
         this.description = description;
+        this.genres = category;
+        this.awards = awards;
     }
 
     String movieID;
@@ -42,17 +44,19 @@ public class Movie
     String populerTitle;
     String originalTItle;
     double isAdult = 0;
-    double startYear;
+    int startYear;
     String runtime;
     String photo;
     String trailer;
-    double rating ;
+    float rating ;
     String imdbLink;
     int numberOfVotes;
     List<String> directors;
     List<String> writers;
     List<String> stars;
     String description;
+    List<String> genres;
+    String awards;
 
 
 

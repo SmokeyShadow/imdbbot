@@ -1,4 +1,5 @@
 package org.telegram.telegrambots;
+
 import imdb.IMDB;
 import imdb.IMDBFactory;
 import org.telegram.telegrambots.meta.api.objects.Message;
@@ -9,6 +10,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+
+import static com.sun.org.apache.bcel.internal.util.SecuritySupport.getResourceAsStream;
 
 public class DBConnection
 {
@@ -40,7 +43,7 @@ public class DBConnection
             properties = new Properties();
 
             try {
-                InputStream inputStream = null;// =getResourceAsStream("nl/stil4m/imdb/parsing.properties");
+                InputStream inputStream =getResourceAsStream("nl/stil4m/imdb/parsing.properties");
                 properties.load(inputStream);
             } catch (IOException e) {
 
@@ -85,12 +88,12 @@ public class DBConnection
             preparedStatement = con.prepareStatement(q);
             ResultSet r = preparedStatement.executeQuery(q);
             Movie m ;
-            while (r.next()) {
-                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getString(8)
-                        ,r.getString(10) , r.getString(11) , r.getDouble(12) , r.getString(13));
-                m.rating = r.getDouble(12);
-                results.add(m);
-            }
+//            while (r.next()) {
+//                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getString(8)
+//                        ,r.getString(10) , r.getString(11) , r.getDouble(12) , r.getString(13));
+//                m.rating = r.getDouble(12);
+//                results.add(m);
+//            }
         } catch (SQLException e) {
             System.out.println("Failed with errors");
             e.printStackTrace();
@@ -173,12 +176,12 @@ public class DBConnection
             ResultSetMetaData rsmd = r.getMetaData();
             int columnsNumber = rsmd.getColumnCount();
             Movie m;
-            while (r.next()) {
-                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getString(8)
-                        ,r.getString(10) , r.getString(11) , r.getDouble(12) , r.getString(13));
-
-                results.add(m);
-            }
+//            while (r.next()) {
+//                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getString(8)
+//                        ,r.getString(10) , r.getString(11) , r.getDouble(12) , r.getString(13));
+//
+//                results.add(m);
+//            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -193,12 +196,12 @@ public class DBConnection
             preparedStatement = con.prepareStatement(q);
             ResultSet r = preparedStatement.executeQuery(q);
             Movie m ;
-            while (r.next()) {
-                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getString(8)
-                ,r.getString(10) , r.getString(11) , r.getDouble(12) , r.getString(13));
-
-                results.add(m);
-            }
+//            while (r.next()) {
+//                m = new Movie(r.getString(1) , r.getString(2) , r.getString(3) , r.getDouble(6) , r.getString(8)
+//                ,r.getString(10) , r.getString(11) , r.getDouble(12) , r.getString(13));
+//
+//                results.add(m);
+//            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -213,12 +216,12 @@ public class DBConnection
             preparedStatement = con.prepareStatement(q);
             ResultSet r = preparedStatement.executeQuery(q);
             Movie m ;
-            while (r.next()) {
-                m = new Movie(r.getString(1) , r.getString(3) , r.getString(4) , r.getDouble(7) , r.getString(9)
-                        ,r.getString(11) , r.getString(12) , r.getDouble(13) , "");
-
-                results.add(TextUpdate.GetInstance().GetAnswer(m , true) + " Movie Status :" + r.getString(15) + "\n");
-            }
+//            while (r.next()) {
+//                m = new Movie(r.getString(1) , r.getString(3) , r.getString(4) , r.getDouble(7) , r.getString(9)
+//                        ,r.getString(11) , r.getString(12) , r.getDouble(13) , "");
+//
+//                results.add(TextUpdate.GetInstance().GetAnswer(m , true) + " Movie Status :" + r.getString(15) + "\n");
+//            }
         } catch (SQLException e) {
             e.printStackTrace();
         }

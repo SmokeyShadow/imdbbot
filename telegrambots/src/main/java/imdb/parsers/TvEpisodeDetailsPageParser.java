@@ -1,22 +1,15 @@
 package imdb.parsers;
 
 import imdb.domain.TvEpisodeDetails;
-
 import org.jsoup.nodes.Element;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Properties;
 
 public class TvEpisodeDetailsPageParser implements Parser<TvEpisodeDetails> {
 
-    private static final String AIR_DATE = "TvEpisodeDetailsPageParser.airDate";
-    private static final String SHOW_NAME = "TvEpisodeDetailsPageParser.showName";
-    private static final String GENRES = "TvEpisodeDetailsPageParser.genres";
     private static final String EPISODE_NUMBER = "TvEpisodeDetailsPageParser.episodeNumber";
     private static final String SEASON_NUMBER = "TvEpisodeDetailsPageParser.seasonNumber";
     private static final String EPISODE_NAME = "TvEpisodeDetailsPageParser.episodeName";
-
     private final Properties properties;
 
     public TvEpisodeDetailsPageParser(Properties properties) {
@@ -25,29 +18,10 @@ public class TvEpisodeDetailsPageParser implements Parser<TvEpisodeDetails> {
 
     @Override
     public TvEpisodeDetails parse(Element document) {
-        String showName = getShowName(document);
         String episodeName = getEpisodeName(document);
         Long seasonNumber = getSeasonNumber(document);
         Long episodeNumber = getEpisodeNumber(document);
-        List<String> genres = getGenres(document);
-        Long airDate = getAirDate(document);
-return null;
-       // return new TvEpisodeDetails(showName, episodeName, seasonNumber, episodeNumber, genres, airDate);
-    }
-
-    private Long getAirDate(Element document) {
-        String dateStringWithBrackets = document.select(properties.get(AIR_DATE).toString()).text();
-        String dateString = dateStringWithBrackets.substring(1, dateStringWithBrackets.length() - 1);
-        return 0L;//DateTime.parse(dateString, DateTimeFormat.forPattern("dd MMM. yyyy")).getMillis();
-    }
-
-    private List<String> getGenres(Element document) {
-        String genreString = document.select(properties.get(GENRES).toString()).text();
-        List<String> answer = new ArrayList<>();
-        for (String genre : genreString.split(" ")) {
-            answer.add(genre.trim());
-        }
-        return answer;
+       return new TvEpisodeDetails(episodeName, seasonNumber, episodeNumber );
     }
 
     private Long getEpisodeNumber(Element document) {
@@ -66,8 +40,6 @@ return null;
         return document.select(properties.get(EPISODE_NAME).toString()).text();
     }
 
-    private String getShowName(Element document) {
-        return document.select(properties.get(SHOW_NAME).toString()).text();
-    }
+
 
 }
