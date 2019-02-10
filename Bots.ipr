@@ -849,9 +849,7 @@
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
       </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-javadoc.jar!/" />
-      </JAVADOC>
+      <JAVADOC />
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
       </SOURCES>
@@ -1069,12 +1067,8 @@
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/" />
       </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6-sources.jar!/" />
-      </SOURCES>
+      <JAVADOC />
+      <SOURCES />
     </library>
     <library name="Maven: org.apache.httpcomponents:httpclient:4.5.3">
       <CLASSES>
@@ -1223,9 +1217,7 @@
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2.25.1.jar!/" />
       </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2.25.1-javadoc.jar!/" />
-      </JAVADOC>
+      <JAVADOC />
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2.25.1-sources.jar!/" />
       </SOURCES>
@@ -1399,9 +1391,7 @@
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar!/" />
       </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.2/jsoup-1.11.2-javadoc.jar!/" />
-      </JAVADOC>
+      <JAVADOC />
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.2/jsoup-1.11.2-sources.jar!/" />
       </SOURCES>

@@ -1,7 +1,7 @@
 language: java
 jdk:
   - oraclejdk8
-install: mvn install -Dgpg.skip
+install: mvn install -Dgpg.skip-true
 script: mvn clean compile test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
