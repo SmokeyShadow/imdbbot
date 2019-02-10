@@ -38,15 +38,4 @@
         <maven.deploy.skip>true</maven.deploy.skip>
         <bots.version>4.1</bots.version>
     </properties>
-    <build>
-    <plugins>
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <configuration>
-                <skip>true</skip>
-            </configuration>
-        </plugin>
-    </plugins>
-    </build>
 </project>
