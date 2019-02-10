@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad0671e-b866-47c9-85a8-f8f2a23b5bae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Bots.ipr" afterPath="$PROJECT_DIR$/Bots.ipr" />
       <change beforePath="$PROJECT_DIR$/Bots.iws" afterPath="$PROJECT_DIR$/Bots.iws" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
@@ -99,11 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="336" column="12" lean-forward="false" selection-start-line="336" selection-start-column="12" selection-end-line="336" selection-end-column="12" />
+            <state relative-caret-position="726">
+              <caret line="335" column="27" lean-forward="false" selection-start-line="335" selection-start-column="27" selection-end-line="335" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -382,9 +393,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="oudtdated.runtime.suppressed.plugin.version" value="1.2.10-release-IJ2017.3-1" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.5559471" />
+    <property name="project.structure.side.proportion" value="0.4030354" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/telegrambots/src/main/java" />
     <property name="last_opened_file_path" value="D:/imdb-api-master/api-imdb-master" />
@@ -599,12 +610,12 @@
       <workItem from="1549190913540" duration="18814000" />
       <workItem from="1549227507536" duration="10386000" />
       <workItem from="1549636036631" duration="13025000" />
-      <workItem from="1549810211745" duration="2830000" />
+      <workItem from="1549810211745" duration="3170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276514000" />
+    <option name="totallyTimeSpent" value="276854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -954,18 +965,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/telegrambots/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="79" column="81" lean-forward="false" selection-start-line="79" selection-start-column="81" selection-end-line="79" selection-end-column="81" />
+        <state relative-caret-position="726">
+          <caret line="335" column="27" lean-forward="false" selection-start-line="335" selection-start-column="27" selection-end-line="335" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="336" column="12" lean-forward="false" selection-start-line="336" selection-start-column="12" selection-end-line="336" selection-end-column="12" />
+        <state relative-caret-position="453">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -991,7 +1002,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5559471" />
+                <option value="0.4030354" />
               </list>
             </option>
           </splitter-proportions>
@@ -1003,7 +1014,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5559471" />
+                <option value="0.4030354" />
               </list>
             </option>
           </splitter-proportions>
@@ -1015,7 +1026,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5559471" />
+                <option value="0.4030354" />
               </list>
             </option>
           </splitter-proportions>
@@ -1023,12 +1034,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>telegrambots</last-edited>
+          <last-edited>telegrambots-meta</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5559471" />
-                <option value="0.6" />
+                <option value="0.4030354" />
               </list>
             </option>
           </splitter-proportions>
@@ -1036,11 +1046,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.projectlombok:lombok:1.14.8</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5559471" />
+                <option value="0.4030354" />
               </list>
             </option>
           </splitter-proportions>
