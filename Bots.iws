@@ -4,82 +4,10 @@
     <list default="true" id="0ad0671e-b866-47c9-85a8-f8f2a23b5bae" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Bots.ipr" afterPath="$PROJECT_DIR$/Bots.ipr" />
       <change beforePath="$PROJECT_DIR$/Bots.iws" afterPath="$PROJECT_DIR$/Bots.iws" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/Changelog.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/Errors-Handling.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/FAQ.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/Getting-Started.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/Home.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/How-To-Update.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/Using-Http-Proxy.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/_Footer.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/_Sidebar.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/abilities/Advanced.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/abilities/Bot-Recovery.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/abilities/Bot-Testing.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/abilities/Database-Handling.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/abilities/Hello-Ability.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/abilities/Simple-Example.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots.wiki/abilities/Using-Replies.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/DocumentBuilder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/IMDB.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/IMDBFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/commands/Command.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/commands/SearchTitleCommand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/commands/TitleDetailsCommand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/constants/IMDBConstants.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/Details.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/MovieDetails.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/SearchResult.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/TvEpisodeDetails.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/TvShowDetails.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/MovieDetailsPageParser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/MovieResultParser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/Parser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/TvEpisodeDetailsPageParser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/TvShowDetailsPageParser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/util/ElementUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/util/impl/DefaultElementUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/main/resources/nl/stil4m/imdb/parsing.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imdb-api/src/test/java/nl/stil4m/imdb/it/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/system.properties" afterPath="$PROJECT_DIR$/system.properties" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/api/methods/send/SendMessageTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/TelegramBotsHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/TestDeserialization.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/TestTelegramApi.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/apimethods/TestAnswerInlineQuery.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/apimethods/TestGetUpdates.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/apimethods/TestSetGameScore.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/asserts/ApiAssert.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/base/TestBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/fakes/FakeBotSession.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/java/org/telegram/telegrambots/meta/test/fakes/FakeWebhook.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/resources/ResponseWithError.json" afterPath="$PROJECT_DIR$/telegrambots-meta/src/resources/ResponseWithError.json" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/resources/ResponseWithoutError.json" afterPath="$PROJECT_DIR$/telegrambots-meta/src/resources/ResponseWithoutError.json" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/resources/ResponsesSetGameScore.json" afterPath="$PROJECT_DIR$/telegrambots-meta/src/resources/ResponsesSetGameScore.json" />
-      <change beforePath="$PROJECT_DIR$/telegrambots-meta/src/test/resources/Update.json" afterPath="$PROJECT_DIR$/telegrambots-meta/src/resources/Update.json" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/constants/IMDBConstants.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/constants/IMDBConstants.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/domain/Details.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/domain/Details.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/domain/MovieDetails.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/domain/MovieDetails.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/domain/TvEpisodeDetails.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/domain/TvEpisodeDetails.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/domain/TvShowDetails.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/domain/TvShowDetails.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieDetailsPageParser.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieDetailsPageParser.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieResultParser.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieResultParser.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/TvEpisodeDetailsPageParser.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/TvEpisodeDetailsPageParser.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/TvShowDetailsPageParser.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/TvShowDetailsPageParser.java" />
+      <change beforePath="$PROJECT_DIR$/telegrambots/pom.xml" afterPath="$PROJECT_DIR$/telegrambots/pom.xml" />
       <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/Movie.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/Movie.java" />
       <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java" />
       <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/resources/nl/stil4m/imdb/parsing.properties" afterPath="$PROJECT_DIR$/telegrambots/src/main/resources/nl/stil4m/imdb/parsing.properties" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/test/java/org/telegram/telegrambots/test/BotApiMethodHelperFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/test/java/org/telegram/telegrambots/test/Fakes/FakeLongPollingBot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/test/java/org/telegram/telegrambots/test/Fakes/FakeWebhook.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/test/java/org/telegram/telegrambots/test/TelegramLongPollingBotTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/test/java/org/telegram/telegrambots/test/TestDefaultBotSession.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/test/java/org/telegram/telegrambots/test/TestRestApi.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/telegrambots-meta/target/" />
@@ -102,82 +30,70 @@
       <file leaf-file-name="UpdateManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2709">
-              <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+            <state relative-caret-position="1008">
+              <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4200">
-              <caret line="223" column="15" lean-forward="false" selection-start-line="218" selection-start-column="13" selection-end-line="223" selection-end-column="15" />
+            <state relative-caret-position="197">
+              <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="14" />
               <folding>
-                <marker date="1549127141579" expanded="true" signature="1706:1772" ph="INSERT INTO user_fav_movies... " />
-                <marker date="1549127141579" expanded="true" signature="2357:2404" ph="SELECT * FRO... movie" />
-                <marker date="1549127141579" expanded="true" signature="4202:4281" ph="SELECT avera... rating" />
-                <marker date="1549127141579" expanded="true" signature="5038:5079" ph="SELECT user_... user" />
-                <marker date="1549127141579" expanded="true" signature="5865:5956" ph="SELECT * FRO... movie" />
-                <marker date="1549127141579" expanded="true" signature="6805:6933" ph="SELECT * FRO... movie" />
-                <marker date="1549127141579" expanded="true" signature="6850:6918" ph="SELECT movie... user_fav_movies" />
-                <marker date="1549127141579" expanded="true" signature="7672:7717" ph="SELECT * FRO... suggested_movie" />
-                <marker date="1549127141579" expanded="true" signature="8749:8874" ph="INSERT INTO user... " />
+                <element signature="imports" expanded="true" />
+                <marker date="1549812851574" expanded="true" signature="1687:1753" ph="INSERT INTO user_fav_movies... " />
+                <marker date="1549812851574" expanded="true" signature="2338:2385" ph="SELECT * FRO... movie" />
+                <marker date="1549812851574" expanded="true" signature="3280:3427" ph="INSERT INTO suggested_movie... " />
+                <marker date="1549812851574" expanded="true" signature="4183:4262" ph="SELECT avera... rating" />
+                <marker date="1549812851574" expanded="true" signature="4953:4994" ph="SELECT user_... user" />
+                <marker date="1549812851574" expanded="true" signature="5780:5871" ph="SELECT * FRO... movie" />
+                <marker date="1549812851574" expanded="true" signature="6720:6848" ph="SELECT * FRO... movie" />
+                <marker date="1549812851574" expanded="true" signature="6765:6833" ph="SELECT movie... user_fav_movies" />
+                <marker date="1549812851574" expanded="true" signature="7587:7632" ph="SELECT * FRO... suggested_movie" />
+                <marker date="1549812851574" expanded="true" signature="8664:8789" ph="INSERT INTO user... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongPollingBot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/generics/LongPollingBot.java">
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#878#879#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbsSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/bots/AbsSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextUpdate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TextUpdate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="360" column="96" lean-forward="true" selection-start-line="360" selection-start-column="96" selection-end-line="360" selection-end-column="96" />
-              <folding>
-                <element signature="e#1108#1116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMDBConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/imdb/constants/IMDBConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="334">
+              <caret line="287" column="28" lean-forward="false" selection-start-line="287" selection-start-column="28" selection-end-line="287" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/api/methods/send/SendMessage.java">
+      <file leaf-file-name="PhotoUpdate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/PhotoUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2919">
-              <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnPhotoRecieved.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/OnPhotoRecieved.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -249,6 +165,8 @@
       <find>stil</find>
       <find>system</find>
       <find>wrapper</find>
+      <find>print</find>
+      <find>static</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -298,7 +216,6 @@
         <option value="$PROJECT_DIR$/system.properties" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/imdb/IMDB.java" />
         <option value="$PROJECT_DIR$/imdb-api/src/main/resources/nl/stil4m/imdb/parsing.properties" />
-        <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java" />
         <option value="$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/parsers/MovieDetailsPageParser.java" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/Movie.java" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieDetailsPageParser.java" />
@@ -310,9 +227,10 @@
         <option value="$PROJECT_DIR$/telegrambots/src/main/resources/nl/stil4m/imdb/parsing.properties" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/TvShowDetailsPageParser.java" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieResultParser.java" />
-        <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/imdb/constants/IMDBConstants.java" />
+        <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java" />
+        <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java" />
       </list>
     </option>
   </component>
@@ -369,10 +287,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -405,45 +323,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybot" type="462c0819:PsiDirectoryNode" />
-              <item name="telegrambots" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybot" type="462c0819:PsiDirectoryNode" />
-              <item name="telegrambots" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdb" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybot" type="462c0819:PsiDirectoryNode" />
-              <item name="telegrambots" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdb" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybot" type="462c0819:PsiDirectoryNode" />
-              <item name="telegrambots" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imdb" type="462c0819:PsiDirectoryNode" />
-              <item name="parsers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bots" type="b2602c69:ProjectViewProjectNode" />
@@ -700,12 +579,14 @@
       <workItem from="1548241362665" duration="5040000" />
       <workItem from="1548828523360" duration="2712000" />
       <workItem from="1549190913540" duration="18814000" />
-      <workItem from="1549227507536" duration="9180000" />
+      <workItem from="1549227507536" duration="10386000" />
+      <workItem from="1549636036631" duration="13025000" />
+      <workItem from="1549810211745" duration="2100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259453000" />
+    <option name="totallyTimeSpent" value="275784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -721,11 +602,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32767764" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29056203" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -756,7 +637,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -770,14 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -830,30 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/OnPhotoRecieved.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/PhotoUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TelegramUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -938,13 +787,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieDetailsPageParser.java">
+    <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/generics/LongPollingBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="483">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/bots/AbsSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/imdb/constants/IMDBConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -956,10 +817,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/bots/AbsSender.java">
+    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieResultParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="1071">
+          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -974,64 +835,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieResultParser.java">
+    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/imdb/parsers/MovieDetailsPageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        <state relative-caret-position="147">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/PhotoUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/imdb/constants/IMDBConstants.java">
+    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/OnPhotoRecieved.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="63">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TelegramUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2709">
-          <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+        <state relative-caret-position="1008">
+          <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="287" column="28" lean-forward="false" selection-start-line="287" selection-start-column="28" selection-end-line="287" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4200">
-          <caret line="223" column="15" lean-forward="false" selection-start-line="218" selection-start-column="13" selection-end-line="223" selection-end-column="15" />
+        <state relative-caret-position="197">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="14" />
           <folding>
-            <marker date="1549127141579" expanded="true" signature="1706:1772" ph="INSERT INTO user_fav_movies... " />
-            <marker date="1549127141579" expanded="true" signature="2357:2404" ph="SELECT * FRO... movie" />
-            <marker date="1549127141579" expanded="true" signature="4202:4281" ph="SELECT avera... rating" />
-            <marker date="1549127141579" expanded="true" signature="5038:5079" ph="SELECT user_... user" />
-            <marker date="1549127141579" expanded="true" signature="5865:5956" ph="SELECT * FRO... movie" />
-            <marker date="1549127141579" expanded="true" signature="6805:6933" ph="SELECT * FRO... movie" />
-            <marker date="1549127141579" expanded="true" signature="6850:6918" ph="SELECT movie... user_fav_movies" />
-            <marker date="1549127141579" expanded="true" signature="7672:7717" ph="SELECT * FRO... suggested_movie" />
-            <marker date="1549127141579" expanded="true" signature="8749:8874" ph="INSERT INTO user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots-meta/src/main/java/org/telegram/telegrambots/meta/generics/LongPollingBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#878#879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="360" column="96" lean-forward="true" selection-start-line="360" selection-start-column="96" selection-end-line="360" selection-end-column="96" />
-          <folding>
-            <element signature="e#1108#1116#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1549812851574" expanded="true" signature="1687:1753" ph="INSERT INTO user_fav_movies... " />
+            <marker date="1549812851574" expanded="true" signature="2338:2385" ph="SELECT * FRO... movie" />
+            <marker date="1549812851574" expanded="true" signature="3280:3427" ph="INSERT INTO suggested_movie... " />
+            <marker date="1549812851574" expanded="true" signature="4183:4262" ph="SELECT avera... rating" />
+            <marker date="1549812851574" expanded="true" signature="4953:4994" ph="SELECT user_... user" />
+            <marker date="1549812851574" expanded="true" signature="5780:5871" ph="SELECT * FRO... movie" />
+            <marker date="1549812851574" expanded="true" signature="6720:6848" ph="SELECT * FRO... movie" />
+            <marker date="1549812851574" expanded="true" signature="6765:6833" ph="SELECT movie... user_fav_movies" />
+            <marker date="1549812851574" expanded="true" signature="7587:7632" ph="SELECT * FRO... suggested_movie" />
+            <marker date="1549812851574" expanded="true" signature="8664:8789" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>

@@ -34,27 +34,28 @@ public class TextUpdate extends TelegramUpdate
     public void OnNewUpdate(Message msg) {
         String message_text = msg.getText();
         long chat_id = msg.getChatId();
+        String answer = "";
         CheckNewUser(msg , chat_id);
 
         if (message_text.equals("/start")) {
-            OnStartState(chat_id);
+            answer = OnStartState(chat_id);
         }
         else if (message_text.equals("/keyboard")) {
-            OnKeyBoardOpen(chat_id);
+            answer = OnKeyBoardOpen(chat_id);
         } else if (message_text.equals("/hide")) {
-            OnKeyBoardClose(chat_id);
+            answer =OnKeyBoardClose(chat_id);
         }
         else if(message_text.equals("Show Top Box Office"))
         {
-            ShowTopBoxOffice(chat_id);
+            answer =ShowTopBoxOffice(chat_id);
 
         }
         else if (message_text.startsWith("/search")) {
-            SearchMMovie(message_text , chat_id , 0);
+            answer =SearchMMovie(message_text , chat_id , 0);
         }
         else if(message_text.equals("Show my Collection"))
         {
-            ShowFavMovies(chat_id);
+            answer =ShowFavMovies(chat_id);
         }
         else if (message_text.equals("Suggest me a movie"))
         {
@@ -66,10 +67,11 @@ public class TextUpdate extends TelegramUpdate
         }
         else
         {
-            SearchMMovie("/search" + message_text , chat_id , 0);
+            answer = SearchMMovie("/search" + message_text , chat_id , 0);
         }
+        UpdateManager.GetInstance().login(chat_id , message_text , answer);
     }
-    public void ShowTopBoxOffice(long chat_id)
+    public String ShowTopBoxOffice(long chat_id)
     {
         Document doc = null;
         try {
@@ -78,10 +80,10 @@ public class TextUpdate extends TelegramUpdate
             e.printStackTrace();
         }
         Elements elements = doc.select(IMDBConstants.IMDB_BF_ELEMNTS);
-        AddBFELElements(elements , chat_id);
+        return AddBFELElements(elements , chat_id);
 
     }
-    public void AddBFELElements(Elements elements , long chat_id)
+    public String AddBFELElements(Elements elements , long chat_id)
     {
         String answer = null;
         answer = "";
@@ -95,9 +97,10 @@ public class TextUpdate extends TelegramUpdate
             +tds.get(3).text()  + "   <b>" +  tds.get(4).text()  + "</b>\n\n";
         }
         UpdateManager.GetInstance().SendMessage(chat_id , answer , true);
+        return answer;
 
     }
-    public void OnKeyBoardClose(long chat_id)
+    public String OnKeyBoardClose(long chat_id)
     {
         SendMessage msg = new SendMessage()
                 .setChatId(chat_id)
@@ -105,8 +108,9 @@ public class TextUpdate extends TelegramUpdate
         ReplyKeyboardRemove keyboardMarkup = new ReplyKeyboardRemove();
         msg.setReplyMarkup(keyboardMarkup);
         UpdateManager.GetInstance().Execute(msg);
+        return "Keyboard hidden";
     }
-    public void OnKeyBoardOpen(long chat_id)
+    public String OnKeyBoardOpen(long chat_id)
     {
         String answer = "Here is your keyboard";
         SendMessage message = new SendMessage() // Create a message object object
@@ -123,6 +127,7 @@ public class TextUpdate extends TelegramUpdate
         keyboardMarkup.setKeyboard(keyboard);
         message.setReplyMarkup(keyboardMarkup);
         UpdateManager.GetInstance().Execute(message);
+        return "Here is your keyboard";
     }
     public SendMessage SendMessage(long chatID , String answer)
     {
@@ -228,7 +233,7 @@ public class TextUpdate extends TelegramUpdate
         }
         return  answer;
     }
-    void OnStartState(long chat_id)
+    String OnStartState(long chat_id)
     {
         String answer = "HOW-TO search films\n" +
                 "-----------------------------\n" +
@@ -240,6 +245,7 @@ public class TextUpdate extends TelegramUpdate
                 "*️⃣ type '/keyboard \n" +
                 "*️⃣ type '/hide \n";
         UpdateManager.GetInstance().SendMessage(chat_id , answer , true);
+        return answer;
     }
     void CheckNewUser(Message msg ,long userID)
     {
@@ -276,15 +282,16 @@ public class TextUpdate extends TelegramUpdate
         }
     }
 
-    void SearchMMovie(String message_text , long chat_id , int number)
+    String SearchMMovie(String message_text , long chat_id , int number)
     {
         String answer = "";
         Document doc = null;
         int c = "/search".length();
         while(message_text.length() > c && message_text.charAt(c) == ' ')
             c++;
-        if( message_text.substring(c) == " " || message_text.substring(c).trim().length() <= 0)
-            return;
+        if( message_text.substring(c) == " " || message_text.substring(c).trim().length() <= 0) {
+            return OnStartState(chat_id);
+        }
         String movieName = message_text.substring(c);
         try {
             doc = Jsoup.connect(GetImdbResultLink(movieName)).get();
@@ -299,7 +306,7 @@ public class TextUpdate extends TelegramUpdate
         else {
                     SearchResult result = MovieResultParser.SearchResult(DBConnection.GetInstance().GetProperties() , elements , number);
                     if(result == null)
-                        return;
+                        return "";
                     String imdbLink= MovieResultParser.GetMovieImdbLink(result.id);
                     SendMessage mainmessage = null;
                     MovieDetails details = null;
@@ -341,6 +348,7 @@ public class TextUpdate extends TelegramUpdate
 
 
         }
+        return answer;
 
     }
 
@@ -380,9 +388,9 @@ public class TextUpdate extends TelegramUpdate
 
 
     }
-    void ShowFavMovies( long chat_id)
+    String ShowFavMovies( long chat_id)
     {
-        String answer;
+        String answer = "";
         List<Movie> movieList = DBConnection.GetInstance().GetFavMovies((int) chat_id);
         if(movieList.size() >0) {
             Movie m;
@@ -396,6 +404,7 @@ public class TextUpdate extends TelegramUpdate
             answer = "there isn't any movie in your fav list.";
             UpdateManager.GetInstance().SendMessage(chat_id ,answer , true);
         }
+        return answer;
 
     }
 

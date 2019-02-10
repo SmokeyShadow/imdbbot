@@ -1,17 +1,14 @@
 package org.telegram.telegrambots;
-
 import imdb.IMDB;
 import imdb.IMDBFactory;
+import org.springframework.core.io.ClassPathResource;
 import org.telegram.telegrambots.meta.api.objects.Message;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-
-import static com.sun.org.apache.bcel.internal.util.SecuritySupport.getResourceAsStream;
 
 public class DBConnection
 {
@@ -43,7 +40,7 @@ public class DBConnection
             properties = new Properties();
 
             try {
-                InputStream inputStream =getResourceAsStream("nl/stil4m/imdb/parsing.properties");
+                InputStream inputStream =new ClassPathResource("nl/stil4m/imdb/parsing.properties").getInputStream();
                 properties.load(inputStream);
             } catch (IOException e) {
 
@@ -132,7 +129,6 @@ public class DBConnection
             int columnsNumber = rsmd.getColumnCount();
             while (r.next()) {
                 for (int i = 1; i <= columnsNumber; i++) {
-                    System.out.println("info " + r.getDouble(i));
                     results[i-1] = r.getDouble(i);
                 }
             }
@@ -247,7 +243,7 @@ public class DBConnection
             result = preparedStatement.execute();
 
         } catch (Exception e) {
-            System.out.println(e);
+            System.out.println("ERROR INSERING USER " + e);
         }
         return  result;
     }

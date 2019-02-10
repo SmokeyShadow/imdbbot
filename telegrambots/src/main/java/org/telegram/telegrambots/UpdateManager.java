@@ -68,11 +68,9 @@ public class UpdateManager extends TelegramLongPollingBot
         else if(update.hasInlineQuery())
         {
             long chat_id = update.getInlineQuery().getFrom().getId();
-            String message = update.getInlineQuery().getQuery();
             InlineKeyboardMarkup keyboard =new InlineKeyboardMarkup();
             List<InlineKeyboardButton> btns = new ArrayList<>();
             List<List<InlineKeyboardButton>> b = new ArrayList<>(5);
-
             InlineKeyboardButton row = new InlineKeyboardButton();
             row.setText("atiyeh");
             row.setText("Norouzi");
@@ -88,7 +86,6 @@ public class UpdateManager extends TelegramLongPollingBot
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }
-           // TextUpdate.GetInstance().SearchMMovie("/search"+message , chat_id);
         }
 
     }
@@ -101,7 +98,6 @@ public class UpdateManager extends TelegramLongPollingBot
             String movie_id = call_data.substring(call_data.lastIndexOf(",") + 1 , call_data.length());
             String a = "This movie added to your favorites";
             boolean result = DBConnection.GetInstance().InsertFavMovie(movie_id, (int)chat_id);
-            System.out.println("Call back query succesfull"+ call_data + "reuslt" + result );
             EditMessageText new_message = new EditMessageText()
                     .setChatId(chat_id)
                     .setMessageId(toIntExact(message_id))
