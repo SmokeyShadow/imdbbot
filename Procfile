@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* org.telegram.telegrambots.UpdateManager
+web: java -cp target/classes:"target/dependency/*"  UpdateManager
