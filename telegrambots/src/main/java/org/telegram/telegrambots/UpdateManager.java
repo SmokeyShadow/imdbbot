@@ -97,7 +97,6 @@ public class UpdateManager extends TelegramLongPollingBot
         if (call_data.startsWith("Add to my Collection")) {
             String movie_id = call_data.substring(call_data.lastIndexOf(",") + 1 , call_data.length());
             String a = "This movie added to your favorites";
-            boolean result = DBConnection.GetInstance().InsertFavMovie(movie_id, (int)chat_id);
             EditMessageText new_message = new EditMessageText()
                     .setChatId(chat_id)
                     .setMessageId(toIntExact(message_id))

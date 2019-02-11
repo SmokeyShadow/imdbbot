@@ -35,8 +35,6 @@ public class TextUpdate extends TelegramUpdate
         String message_text = msg.getText();
         long chat_id = msg.getChatId();
         String answer = "";
-        CheckNewUser(msg , chat_id);
-
         if (message_text.equals("/start")) {
             answer = OnStartState(chat_id);
         }
@@ -52,18 +50,6 @@ public class TextUpdate extends TelegramUpdate
         }
         else if (message_text.startsWith("/search")) {
             answer =SearchMMovie(message_text , chat_id , 0);
-        }
-        else if(message_text.equals("Show my Collection"))
-        {
-            answer =ShowFavMovies(chat_id);
-        }
-        else if (message_text.equals("Suggest me a movie"))
-        {
-            List<String> results = DBConnection.GetInstance().GetMoviesStatus(chat_id);
-            for (String r: results
-                 ) {
-                SendMessage(chat_id , r);
-            }
         }
         else
         {
@@ -247,31 +233,7 @@ public class TextUpdate extends TelegramUpdate
         UpdateManager.GetInstance().SendMessage(chat_id , answer , true);
         return answer;
     }
-    void CheckNewUser(Message msg ,long userID)
-    {
-        if(DBConnection.GetInstance().IsNewUser(userID))
-        {
-            if(DBConnection.GetInstance().InsertUser(msg))
-                System.out.println("Insert User : Successful");
-            else
-                System.out.println("Insert User : Error");
-        }
-    }
-    void ShowTopMovies(int count , long chat_id)
-    {
-        String answer;
-        List<Movie> movieList = DBConnection.GetInstance().GetTopMovies(count);
-        if(movieList.size() >0) {
-            for (int i = 0; i < movieList.size(); i++) {
-               // answer = GetAnswer(movieList.get(i) , );
-             //   SendMessage(chat_id , answer);
-            }
-        }
-        else {
-            answer = "UnSuccessful";
-            SendMessage(chat_id ,answer);
-        }
-    }
+
     String GetImdbResultLink(String movie_name)
     {
         try {
@@ -388,24 +350,6 @@ public class TextUpdate extends TelegramUpdate
 
 
     }
-    String ShowFavMovies( long chat_id)
-    {
-        String answer = "";
-        List<Movie> movieList = DBConnection.GetInstance().GetFavMovies((int) chat_id);
-        if(movieList.size() >0) {
-            Movie m;
-            for (int i = 0; i < movieList.size(); i++) {
-                m = movieList.get(i);
-//                answer = GetAnswer(m , false);
-//                UpdateManager.GetInstance().SendMessage(chat_id ,answer , true);
-            }
-        }
-        else {
-            answer = "there isn't any movie in your fav list.";
-            UpdateManager.GetInstance().SendMessage(chat_id ,answer , true);
-        }
-        return answer;
 
-    }
 
 }
