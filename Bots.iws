@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad0671e-b866-47c9-85a8-f8f2a23b5bae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Bots.iws" afterPath="$PROJECT_DIR$/Bots.iws" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java" />
-      <change beforePath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java" afterPath="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java" />
+      <change beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/telegrambots-meta/target/" />
@@ -25,16 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UpdateManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="181">
               <caret line="98" column="60" lean-forward="false" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,8 +115,8 @@
       <file leaf-file-name="Bots.iws" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bots.iws">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3906">
-              <caret line="186" column="100" lean-forward="false" selection-start-line="186" selection-start-column="100" selection-end-line="186" selection-end-column="100" />
+            <state relative-caret-position="3822">
+              <caret line="182" column="100" lean-forward="false" selection-start-line="182" selection-start-column="100" selection-end-line="182" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -176,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/imdb-api-master/src/test/java/nl/stil4m/imdb/Main.java" />
         <option value="$PROJECT_DIR$/imdb-api-master/src/test/java/nl/stil4m/imdb/it/IMDBITTest.java" />
         <option value="$PROJECT_DIR$/imdb-api-master/src/test/java/nl/stil4m/imdb/it/IMDBTest.java" />
         <option value="$PROJECT_DIR$/imdb-api-master/src/test/java/nl/stil4m/imdb/it/ImdbApiManager.java" />
@@ -227,6 +223,7 @@
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/DBConnection.java" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/TextUpdate.java" />
         <option value="$PROJECT_DIR$/telegrambots/src/main/java/org/telegram/telegrambots/UpdateManager.java" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -596,12 +593,12 @@
       <workItem from="1549227507536" duration="10386000" />
       <workItem from="1549636036631" duration="13025000" />
       <workItem from="1549810211745" duration="4101000" />
-      <workItem from="1549892999288" duration="461000" />
+      <workItem from="1549892999288" duration="1124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282383000" />
+    <option name="totallyTimeSpent" value="283046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -657,7 +654,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imdb-api/src/main/java/nl/stil4m/imdb/domain/Details.java" />
     <entry file="file://$PROJECT_DIR$/TelegramBots.wiki/abilities/Advanced.md" />
     <entry file="file://$PROJECT_DIR$/TelegramBots.wiki/abilities/Bot-Recovery.md" />
     <entry file="file://$PROJECT_DIR$/TelegramBots.wiki/abilities/Bot-Testing.md" />
@@ -889,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bots.iws">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3906">
-          <caret line="186" column="100" lean-forward="false" selection-start-line="186" selection-start-column="100" selection-end-line="186" selection-end-column="100" />
+        <state relative-caret-position="3822">
+          <caret line="182" column="100" lean-forward="false" selection-start-line="182" selection-start-column="100" selection-end-line="182" selection-end-column="100" />
           <folding />
         </state>
       </provider>
@@ -940,6 +936,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="98" column="60" lean-forward="false" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
